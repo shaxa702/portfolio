@@ -1,0 +1,1048 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;900&display=swap");
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Raleway';
+  background-color: #202020;
+}
+
+body header {
+  width: 90%;
+  height: 85px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .navbar .links {
+  width: 290px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .navbar .links div a {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+body header .navbar .toggle {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -3px;
+  display: none;
+}
+
+body header .navbar .toggle span {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+body .introduction {
+  width: 90%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 140px;
+  margin-bottom: 100px;
+}
+
+body .introduction .info {
+  height: 100%;
+  width: 50%;
+}
+
+body .introduction .info h4 {
+  margin-top: 100px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 20px;
+  color: #F60D32;
+}
+
+body .introduction .info .title {
+  margin-top: 30px;
+  font-family: 'Raleway';
+  font-weight: 900;
+  font-size: 44px;
+  color: #FFFFFF;
+}
+
+body .introduction .info p {
+  margin-top: 10px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  width: 474px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .introduction .info button {
+  width: 212px;
+  height: 50px;
+  background: #F60D32;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+body .introduction .img {
+  height: 100%;
+}
+
+body .introduction .img .big-img {
+  width: 421px;
+  height: 597px;
+  background: #2D2D2D;
+  margin-bottom: 0;
+}
+
+body .introduction .img .big-img img {
+  margin-top: -23px;
+  margin-left: 23px;
+}
+
+body .courses {
+  width: 90%;
+  height: 547px;
+  margin: 0 auto;
+  margin-bottom: 43px;
+}
+
+body .courses .text {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  margin-bottom: 29px;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+body .courses .text a {
+  color: red;
+}
+
+body .courses .blogs {
+  width: 100%;
+  height: 483px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .courses .blogs .blog1 {
+  width: 32%;
+  height: 100%;
+  background: #2D2D2D;
+}
+
+body .courses .blogs .blog1 .img {
+  width: 80px;
+  height: 80px;
+  background: #F60D32;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 26px;
+  margin-top: 27px;
+}
+
+body .courses .blogs .blog1 .text1 {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  color: white;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 33px;
+}
+
+body .courses .blogs .blog1 .text2 {
+  width: 90%;
+  height: 173px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+body .courses .blogs .blog2 {
+  width: 32%;
+  height: 100%;
+  background: #2D2D2D;
+}
+
+body .courses .blogs .blog2 .img {
+  width: 80px;
+  height: 80px;
+  background: #F60D32;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 26px;
+  margin-top: 27px;
+}
+
+body .courses .blogs .blog2 .text1 {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  color: white;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 33px;
+}
+
+body .courses .blogs .blog2 .text2 {
+  width: 90%;
+  height: 173px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+body .courses .blogs .blog3 {
+  width: 32%;
+  height: 100%;
+  background: #2D2D2D;
+}
+
+body .courses .blogs .blog3 .img {
+  width: 80px;
+  height: 80px;
+  background: #F60D32;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 26px;
+  margin-top: 27px;
+}
+
+body .courses .blogs .blog3 .text1 {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  color: white;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 33px;
+}
+
+body .courses .blogs .blog3 .text2 {
+  width: 90%;
+  height: 173px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+body .works {
+  width: 90%;
+  height: 1093px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+}
+
+body .works .about {
+  width: 100%;
+  height: 32px;
+  text-align: center;
+  margin-bottom: 112px;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+body .works .about a {
+  color: red;
+}
+
+body .works .blog1 {
+  width: 100%;
+  height: 433px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 84px;
+}
+
+body .works .blog1 .div1 {
+  width: 30%;
+  height: 180px;
+}
+
+body .works .blog1 .div1 .text1 {
+  width: 100%;
+  text-align: left;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+body .works .blog1 .div1 .text2 {
+  width: 100%;
+  text-align: left;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 9px;
+  color: white;
+}
+
+body .works .blog1 .div1 .text3 {
+  width: 100%;
+  text-align: left;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+body .works .blog1 .div1 .text3 a {
+  color: red;
+}
+
+body .works .blog1 .div2 {
+  width: 57%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .works .blog1 .div2 .big-img {
+  width: 684px;
+  height: 433px;
+  background: #2D2D2D;
+  margin-bottom: 0;
+}
+
+body .works .blog1 .div2 .big-img img {
+  margin-top: -25px;
+  margin-left: 24px;
+}
+
+body .works .blog2 {
+  width: 100%;
+  height: 433px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .works .blog2 .div2 {
+  width: 57%;
+  height: 100%;
+}
+
+body .works .blog2 .div2 .big-img {
+  width: 684px;
+  height: 433px;
+  background: #2D2D2D;
+  margin-bottom: 0;
+}
+
+body .works .blog2 .div2 .big-img img {
+  margin-top: -17px;
+  margin-left: -24px;
+}
+
+body .works .blog2 .div1 {
+  width: 30%;
+  height: 180px;
+}
+
+body .works .blog2 .div1 .text1 {
+  width: 100%;
+  text-align: left;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+body .works .blog2 .div1 .text2 {
+  width: 100%;
+  text-align: left;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 9px;
+  color: white;
+}
+
+body .works .blog2 .div1 .text3 {
+  width: 100%;
+  text-align: left;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+body .works .blog2 .div1 .text3 a {
+  color: red;
+}
+
+body .courses2 {
+  width: 90%;
+  height: 705px;
+  margin: 0 auto;
+  margin-bottom: 123px;
+}
+
+body .courses2 .text1 {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  margin-bottom: 119px;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+body .courses2 .text1 a {
+  color: white;
+  text-decoration: none;
+}
+
+body .courses2 .text2 {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  margin-bottom: 29px;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+body .courses2 .text2 a {
+  color: red;
+}
+
+body .courses2 .blogs {
+  width: 100%;
+  height: 483px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .courses2 .blogs .blog1 {
+  width: 32%;
+  height: 100%;
+  background: #2D2D2D;
+}
+
+body .courses2 .blogs .blog1 .img {
+  width: 80px;
+  height: 80px;
+  background: #F60D32;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 51px;
+  margin-top: 27px;
+}
+
+body .courses2 .blogs .blog1 .text1 {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  color: white;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 38px;
+}
+
+body .courses2 .blogs .blog1 .text2 {
+  width: 90%;
+  height: 173px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+body .courses2 .blogs .blog2 {
+  width: 32%;
+  height: 100%;
+  background: #2D2D2D;
+}
+
+body .courses2 .blogs .blog2 .img {
+  width: 80px;
+  height: 80px;
+  background: #F60D32;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 51px;
+  margin-top: 27px;
+}
+
+body .courses2 .blogs .blog2 .text1 {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  color: white;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 38px;
+}
+
+body .courses2 .blogs .blog2 .text2 {
+  width: 90%;
+  height: 173px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+body .courses2 .blogs .blog3 {
+  width: 32%;
+  height: 100%;
+  background: #2D2D2D;
+}
+
+body .courses2 .blogs .blog3 .img {
+  width: 80px;
+  height: 80px;
+  background: #F60D32;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 51px;
+  margin-top: 27px;
+}
+
+body .courses2 .blogs .blog3 .text1 {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  color: white;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 38px;
+}
+
+body .courses2 .blogs .blog3 .text2 {
+  width: 90%;
+  height: 173px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+body .contact {
+  width: 90%;
+  height: 178px;
+  margin: 0 auto;
+  background-color: #2D2D2D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 87px;
+}
+
+body .contact .text1 {
+  width: 325px;
+  height: 70px;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  color: white;
+  margin-left: 94px;
+}
+
+body .contact button {
+  width: 212px;
+  height: 50px;
+  background: #F60D32;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 50px;
+  cursor: pointer;
+  margin-right: 100px;
+  margin-top: -2px;
+}
+
+body footer {
+  width: 90%;
+  height: 273px;
+  margin: 0 auto;
+  margin-bottom: 57px;
+}
+
+body footer .div {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body footer .div .text1 {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 12px;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  color: white;
+}
+
+body footer .div .text2 {
+  width: 100%;
+  height: 73px;
+  margin-bottom: 12px;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: white;
+}
+
+body footer .div .text3 {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 12px;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25px;
+  color: white;
+}
+
+body footer .div .text4 {
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25px;
+  color: white;
+  margin-bottom: 35px;
+}
+
+body footer .div .manager {
+  width: 130px;
+  height: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 450px) {
+  body header .header-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body header .navbar .links {
+    display: none;
+  }
+  body header .navbar .toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body header .navbar .toggle span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .introduction {
+    display: block;
+    margin-bottom: 500px;
+    width: 100%;
+    margin-top: 60px;
+  }
+  body .introduction .info {
+    width: 100%;
+    height: 470px;
+  }
+  body .introduction .info h4 {
+    text-align: center;
+  }
+  body .introduction .info .title {
+    text-align: center;
+  }
+  body .introduction .info p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  body .introduction .info .info-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .introduction .info .info-button button {
+    margin-top: 20px;
+  }
+  body .introduction .img {
+    width: 80%;
+  }
+  body .introduction .img .big-img {
+    margin: 0 auto;
+    margin-left: 15px;
+  }
+  body .introduction .img .big-img img {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  body .courses {
+    margin-bottom: 1090px;
+  }
+  body .courses .blogs {
+    display: block;
+  }
+  body .courses .blogs .blog1 {
+    padding-top: 27px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .courses .blogs .blog2 {
+    padding-top: 27px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .courses .blogs .blog3 {
+    padding-top: 27px;
+    width: 100%;
+  }
+  body .works {
+    margin-bottom: 50px;
+  }
+  body .works .about {
+    margin-bottom: 10px;
+  }
+  body .works .blog1 {
+    display: block;
+    margin-bottom: 150px;
+  }
+  body .works .blog1 .div1 {
+    margin-bottom: 100px;
+    width: 100%;
+  }
+  body .works .blog1 .div1 .text1 {
+    text-align: center;
+  }
+  body .works .blog1 .div1 .text2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  body .works .blog1 .div1 .text3 {
+    text-align: center;
+  }
+  body .works .blog1 .div2 {
+    width: 100%;
+    margin-left: -25px;
+  }
+  body .works .blog1 .div2 .big-img {
+    width: 90%;
+    height: 55%;
+  }
+  body .works .blog1 .div2 .big-img img {
+    width: 100%;
+    height: 100%;
+  }
+  body .works .blog2 {
+    display: block;
+  }
+  body .works .blog2 .div2 {
+    width: 100%;
+    margin-left: 25px;
+  }
+  body .works .blog2 .div2 .big-img {
+    width: 90%;
+    height: 55%;
+  }
+  body .works .blog2 .div2 .big-img img {
+    width: 100%;
+    height: 100%;
+  }
+  body .works .blog2 .div1 {
+    width: 100%;
+    margin-top: -120px;
+  }
+  body .works .blog2 .div1 .text1 {
+    text-align: center;
+  }
+  body .works .blog2 .div1 .text2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  body .works .blog2 .div1 .text3 {
+    text-align: center;
+  }
+  body .courses2 {
+    margin-bottom: 1090px;
+  }
+  body .courses2 .blogs {
+    display: block;
+  }
+  body .courses2 .blogs .blog1 {
+    padding-top: 27px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .courses2 .blogs .blog2 {
+    padding-top: 27px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .courses2 .blogs .blog3 {
+    padding-top: 27px;
+    width: 100%;
+  }
+  body .contact {
+    width: 90%;
+    display: block;
+    padding-top: 20px;
+  }
+  body .contact .text1 {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 0;
+  }
+  body .contact button {
+    margin-left: 100px;
+  }
+  body footer {
+    width: 90%;
+    height: 350px;
+  }
+  body footer .div {
+    width: 100%;
+    height: 100%;
+  }
+  body footer .div .text1 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  body .works {
+    margin-bottom: 500px;
+  }
+  body .works .blog1 {
+    display: block;
+    margin-bottom: 300px;
+  }
+  body .works .blog1 .div1 {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  body .works .blog1 .div2 {
+    width: 100%;
+    margin-bottom: 900px;
+  }
+  body .works .blog1 .div2 .big-img {
+    margin: 0 auto;
+  }
+  body .works .blog2 {
+    display: block;
+  }
+  body .works .blog2 .div2 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  body .works .blog2 .div2 .big-img {
+    margin: 0 auto;
+  }
+  body .works .blog2 .div1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
